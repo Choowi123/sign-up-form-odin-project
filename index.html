@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="icon" href="odin-lined.png">
+</head>
+<body>
+    <div class="side-bar">
+        <img class="side-bar-bg" src="side-bar-bg.jpg" alt="side bar background">
+        <div class="banner">
+            <img src="odin-lined.png" alt="odin logo" class="logo">
+        </div>
+        <div class="credits">
+            <p>Photo by <a href="#" class="a-credits">Halie West </a>on <a href="#" class="a-credits">Unsplash</a></p>
+        </div>
+    </div>
+    <main>
+        <div class="top-paragraph">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <i>now</i> get started</p>
+        </div>
+        <div class="second-text">
+            <p>You <i>know</i> you want to.</p>
+        </div>
+        <div class="form">
+            <div class="span-text">
+                <span>Let's do this!</span>
+            </div>
+            <div class="first-column">
+                <div class="input-container">
+                    <p class="p-form">FIRST NAME</p>
+                    <input type="text" name="first-name" id="firstName">
+                </div>
+                <div class="input-container">
+                    <p class="p-form">LAST NAME</p>
+                    <input type="text" name="last-name" id="lastName">
+                </div>
+                <div class="input-container">
+                    <p class="p-form">EMAIL</p>
+                    <input type="email" name="email" id="userEmail">
+                </div>
+                <div class="input-container">
+                    <p class="p-form">PHONE NUMBER</p>
+                    <input type="text" name="phone-number" id="phoneNumber">
+                </div>
+                <div class="input-container">
+                    <p class="p-form">PASSWORD</p>
+                    <input type="password" name="password" id="userPass">
+                </div>
+                <div class="input-container">
+                    <p class="p-form">CONFIRM PASSWORD</p>
+                    <input type="password" name="confirm-password" id="confirmPass">
+                </div>
+                <p class="wrong-password" id="wrongPass">* Password does not match</p>
+            </div>
+        </div>
+        <div class="create-acc">
+            <button onclick="checkPass()">Create Account</button>
+        </div>
+        <span class="login">Already have an account? <a href="#" id="checkPass">Log in</a></span>
+    </main>
+</body>
+</html>
